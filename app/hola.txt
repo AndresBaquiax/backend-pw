@@ -1,0 +1,5 @@
+Aqui van tus consejos
+
+git add . #Agrega todos los archivos de la carpeta actual
+git commit #Agrega un mensaje para lo que vamos a subir
+git push origin main #agrega todo a la rama principal. Main puede ser cambiado por el nombre de la rama
