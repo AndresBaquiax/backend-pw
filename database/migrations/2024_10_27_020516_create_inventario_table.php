@@ -16,7 +16,6 @@ return new class extends Migration
             $table->unsignedBigInteger('Producto_ID');
             $table->unsignedBigInteger('Tienda_ID');
             $table->integer('Stock');
-            $table->string('Ubicacion_Producto')->nullable();
             $table->foreign('Producto_ID')->references('Producto_ID')->on('productos');
             $table->foreign('Tienda_ID')->references('Tienda_ID')->on('tiendas');
             $table->timestamps();
